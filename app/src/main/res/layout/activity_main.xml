@@ -5,34 +5,69 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
-    <View
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="#E21A16"/>
+        android:orientation="vertical"
+        android:gravity="start"
+        android:background="#33A43B">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#FFEB3B"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#FFEB3B"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="vertical">
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="305dp"/>
+            android:layout_height="10dp"
+            android:background="#FFEB3B"/>
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:background="#9E4545"/>
+            android:layout_height="10dp"
+            android:background="#FFEB3B"
+            android:layout_marginTop="10dp"/>
+
 
     </LinearLayout>
 
-    <View
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="#33A43B"/>
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:background="#E21A16">
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#FFEB3B"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#FFEB3B"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
 
 </LinearLayout>
